@@ -68,6 +68,7 @@ The main `ImageCropperContainer` component accepts the following props:
 - Tailwind CSS
 - shadcn/ui
 - Lucide React
+- radix-ui
 
 ## Installation
 
