@@ -118,8 +118,3 @@ The project is organized into several key components:
 3. `ImageCropper.tsx` - Manages the cropping interface with react-image-crop
 4. `CropperControls.tsx` - UI controls for adjusting crop settings
 5. `canvasUtils.ts` - Utility functions for canvas manipulation and image processing
-
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
