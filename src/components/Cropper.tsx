@@ -29,7 +29,9 @@ const Cropper: React.FC<CropperProps> = ({
   const previewCanvasRef = useRef<HTMLCanvasElement>(null);
   const [crop, setCrop] = useState<Crop>();
   const [completedCrop, setCompletedCrop] = useState<PixelCrop>();
+  // @ts-ignore
   const [imgWidth, setImgWidth] = useState(0);
+  // @ts-ignore
   const [imgHeight, setImgHeight] = useState(0);
   
   const getAspectRatio = useCallback(() => {

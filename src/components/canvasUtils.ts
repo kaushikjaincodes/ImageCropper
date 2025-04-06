@@ -1,18 +1,19 @@
 import { PixelCrop } from "react-image-crop";
-
+//@ts-ignore
 const TO_RADIANS = Math.PI / 180;
 
 export async function canvasPreview(
   image: HTMLImageElement,
   canvas: HTMLCanvasElement,
   crop: PixelCrop,
+  // @ts-ignore
   scale = 1,
   outputWidth: number,
   outputHeight: number,
   circular = false
 ) {
   const ctx = canvas.getContext("2d");
-
+  
   if (!ctx) {
     throw new Error("No 2d context");
   }
@@ -40,7 +41,7 @@ export async function canvasPreview(
 
   const scaleX = image.naturalWidth / image.width;
   const scaleY = image.naturalHeight / image.height;
-  
+  // @ts-ignore
   const pixelRatio = window.devicePixelRatio;
   const scaledCropX = crop.x * scaleX;
   const scaledCropY = crop.y * scaleY;

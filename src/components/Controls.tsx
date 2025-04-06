@@ -36,6 +36,7 @@ const Controls: React.FC<CropperControlsProps> = ({
   onCustomWidthChange,
   onCustomHeightChange,
   onReset,
+  // @ts-ignore
   onApplyCrop,
   isCustom
 }) => {
