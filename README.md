@@ -115,7 +115,7 @@ export default MyPage;
 The project is organized into several key components:
 
 1. `ImageCropperContainer.tsx` - Main container component that orchestrates the workflow
-2. `ImageUploader.tsx` - Handles the file upload functionality
-3. `ImageCropper.tsx` - Manages the cropping interface with react-image-crop
-4. `CropperControls.tsx` - UI controls for adjusting crop settings
+2. `Uploader.tsx` - Handles the file upload functionality
+3. `Cropper.tsx` - Manages the cropping interface with react-image-crop
+4. `Controls.tsx` - UI controls for adjusting crop settings
 5. `canvasUtils.ts` - Utility functions for canvas manipulation and image processing
